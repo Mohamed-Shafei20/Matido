@@ -1,0 +1,81 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.re-header{
+    background-image: url("../images/slider1.jpg");
+}
+.lay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-color: rgba(0,0,0,.5);
+}
+.rest{
+    z-index: 1;
+}
+.bg-black{
+    background-color: black;
+    
+}
+.bg-black a{
+    
+    color: #f34949;
+    padding: 15px ;
+    border-bottom: 1px dotted white;
+
+}
+.bg-black a:hover{
+    text-decoration: none;
+
+}
+.bg-black p{
+    color: #999;
+}
+.text-muted{
+    color: rgba(255,255,255,.3) !important;
+}
+.part-1 form input{
+    border: none;
+    
+    border-bottom: 1px dotted #ccc;
+}
+.form-control{
+    border-radius: 0 !important;
+}
+.part-1 form  textarea{
+    width: 100%;
+    padding: 1.375rem .75rem;
+    height: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px dotted #ccc;
+}
+
+.part-1 form button{
+     padding: 20px;
+     background-color: black;
+     color: white;
+     transition: all .5s ease-in-out;
+     border: 1px solid #000;
+}
+.part-1 form button:hover{
+    background-color: white;
+    border-color: black;
+    color: #999;
+
+}
+.part-1 p{
+
+    line-height: 2.5;
+
+}
+.shadow{
+    box-shadow: 0 0 15px #ccc;
+}
